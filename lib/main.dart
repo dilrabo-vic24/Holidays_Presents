@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:holidays_presents_3pages/presentations/screens/screen3.dart';
+import 'package:holidays_presents_3pages/presentations/screens/screen1.dart';
+// import 'package:holidays_presents_3pages/presentations/screens/screen3.dart';
 
 void main(){
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget{
       designSize: Size(360, 690),
       child: MaterialApp(
         title: "Holidays, Presents",
-        home: Screen3(),
+        home: Screen1(),
       ),
     );
   }

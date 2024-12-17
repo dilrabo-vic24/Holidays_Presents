@@ -7,4 +7,6 @@ class AppColors {
   static const mainColor = Color(0xFF036bfc);
   static const backgroundColor = Color(0xFFB2EBF2);
   static const redColor = Color(0xFFD50000);
+  static const tagBackgroundColor1 = Color(0xFFFFE9FF);
+  static const tagBackgroundColor2 = Color(0xFFE4E7FF);
 }

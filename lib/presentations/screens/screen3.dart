@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:holidays_presents_3pages/presentations/screens/screen2.dart';
+import 'package:holidays_presents_3pages/presentations/screens/screen1.dart';
 import 'package:holidays_presents_3pages/presentations/widgets/custom_icon_button.dart';
 import 'package:holidays_presents_3pages/utils/app_colors.dart';
 import 'package:holidays_presents_3pages/utils/app_text_style.dart';
@@ -30,7 +30,7 @@ class _Screen3State extends State<Screen3> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 const CustomIconButton(
-                  NavigationScreen: Screen2(),
+                  NavigationScreen: Screen1(),
                   icon: Icons.arrow_back_ios_new,
                 ),
                 changeIconWidget(
